@@ -1,0 +1,569 @@
+   
+     *{
+            scroll-behavior:smooth;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+          font-family: 'Lato', sans-serif;
+        }
+        header{
+          overflow: hidden;
+        }
+       ul a{
+            text-decoration: none;
+            transition:bottom 5ms;
+            text-size-adjust: 2rem;
+            color:white;
+            padding:1rem;
+            line-height: 1rem;
+            width:4rem;
+             border:none;
+             transition:0.1s;
+            
+        }
+        ul a:hover{
+          border-style: solid;
+          
+          border-bottom-width:4px;
+          border-color: green;
+          border-top:none;
+          border-left: none;
+          border-right: none;
+          font-size: 1rem;
+          
+        }
+        ul{
+            list-style: none;
+             display:flex;
+            justify-content: flex-end;
+
+             position: absolute;
+  box-align: top;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -1250%);
+  z-index: 2;
+  text-align: right;
+        }
+        li{
+        font-size: 1.2rem;
+        text-align: right;
+        padding: 0rem;
+        width:14rem;
+        
+        }
+
+       .img{
+  /* The image used */
+  background-image: url("back.jpg");
+background-blend-mode: darken;
+background-size: cover;
+margin:0;
+padding: 0;
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  /*-webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100vh; 
+  width: 100vw;
+background-color: rgb(0,0,0,0.7);
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+#html{
+  background-color:rgba(0,0,0, 0.7);
+  position: absolute; 
+}
+.text p {
+ 
+  color:cornsilk;
+  font-weight: bold;
+  font-size: 3rem;
+  position: absolute;
+  box-align: top;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -60%);
+  z-index: 2;
+  text-align: left;
+  padding: 1.5rem;
+  width:60rem;
+  letter-spacing: 0.5rem;
+}
+.box1 a{
+  text-decoration: none;
+            padding:0.5rem;
+            text-size-adjust: 2rem;
+  color:cornsilk;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /*border: 3px solid #f1f1f1;*/
+  border:red;
+  border-radius: 20px;
+  background-color: green;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-220%, 90%);
+  z-index: 2;
+  text-align: left;
+  height: 3rem;;
+  transition: 0.4s;
+  
+}
+
+h3{
+  color:white;
+  text-align:center;
+  text-decoration: underline green;
+  margin-bottom:2rem;
+}
+.box1 a:hover{
+  transform:scale(1.2) translate(-220%,80%);
+position: absolute;
+  margin-left:20px; 
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  text-align: left;
+
+
+}
+p{
+  text-align: center;
+  font-size: 1rem;
+}
+h1{
+  margin-top: 100px;
+  color:black;
+  font-weight: 20px;
+  text-align: center;
+
+}
+.box2 a:hover{
+color:white;
+border-radius: 20px;
+  
+  background-color: green;
+  position: absolute;
+  transform:scale(1.2) translate(-70%,80%);
+
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  text-align: left;
+
+}
+.box2 a{
+   text-decoration: none;
+            padding:0.5rem;
+            text-size-adjust: 2rem;
+            
+  color:green;
+ border:green;
+ border-style: solid;
+ border-color: green;
+ border-radius: 20px;
+ text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /*border: 3px solid #f1f1f1;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%,90%);
+  z-index: 2;
+  text-align: left;
+ transition: 0.4s;
+  height:3rem;
+}
+.image img{
+    height:100px;
+    width:200px;
+    position: absolute;
+  box-align: top;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250%, -300%);
+  z-index: 2;
+  text-align: left;
+}
+#article{
+  display:flex;
+ justify-content: center
+}
+.done .fas{
+  color: green;
+  font-size: 4rem;
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 1.2rem;
+}
+.done{
+  text-align: center;
+  /* font-weight: 2rem; */
+  margin:2rem;
+}
+.done p{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.done h2{
+  font-size: 1.2rem;
+}
+.iphone{
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+.iphone h4{
+
+  padding:1rem;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.iphone h5{
+font-size:20px;
+
+}
+ .imagee img{
+margin-left :150px;
+
+}
+#phone{
+  display: flex;
+}
+.iphonemain{
+  margin-top:50px;
+}
+  #one{
+  margin-top:20px;
+  height:100px;
+  width:200px;
+  margin-bottom: -1rem;
+}
+ #two{
+margin-top: 100px;
+  height:70px;
+  width:200px;
+}
+.abc{
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 8rem;
+  margin-top:4rem;
+}
+.food hr{
+
+  width:100px;
+  height:4px;
+  background-color:green;
+  margin-left:600px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+#country{
+  display:flex;
+  justify-content: end;
+}
+.city{
+  padding:2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.city img{
+  height:200px;
+  width: 250px;
+}
+.c{
+  font-size: 1rem;
+  display:flex;
+  height:30px;
+  width:250px;
+}
+.c .fab{
+  color:green;
+  text-align: left;
+  height:20px;
+  width:20px;
+}
+.c .fas{
+color:green;
+  text-align: left;
+  height:20px;
+  width:20px;
+}
+.c div{
+  height:10px;
+
+}
+.c a{
+  color:green;
+  display: inline-block;
+  transition: 1s;
+}
+.c a:hover{
+  transform:scale(1);
+}
+section{
+  margin-bottom: 3rem;
+}
+.food{
+  background-image: url("thumb-350-988128.jpg");
+background-blend-mode: darken;
+/* background-size: cover; */
+margin:0;
+padding: 0;
+height:500px;
+  /* Add the blur effect */
+  /* position: absolute; */
+
+background-color: rgb(0,0,0,0.7);
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{margin-top: 3rem;
+text-align: center;
+color:white;
+font-size: 3rem;
+}
+#abcd{
+  display:flex;
+  margin:1rem;
+}
+#abcd .fas{
+  color:white;
+}
+#abcd div{
+  font-size: 1.5rem;
+  color:white;
+  margin-bottom: 20px;
+}
+.food img{
+  height:60px;
+  width:60px;
+  border-radius:50%;
+}
+.food1 p{
+  font-size: 3rem;
+  text-align: left;
+  display:inline-block;
+  transition: 1s;
+  margin-bottom: 8rem;
+}
+.food1 p:hover{
+transform: scale(1.2);
+}
+#money{
+  background-color: rgba(224,224,224,0.5);
+  height:100vh;
+  
+}
+.eat{
+  width:100px;
+  height:4px;
+  background-color:green;
+  margin-left:600px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+#money3 {
+display:flex;
+justify-content: center;  
+margin:1 rem;
+}
+#money h6{
+  padding-top: 5rem;
+  font-size: 2rem;
+  text-align:center;
+}
+.money1{
+  /* border:solid; */
+  background-color: white;
+  border-radius: 10px;
+  width:300px;
+  height:100%;
+margin:1rem;
+}
+.money2{
+  margin:1rem;
+/* border:solid; */
+  background-color: white;
+  border-radius: 10px;
+  width:300px;
+  height:100%;
+}
+.money1 nav{
+color:black;
+  font-size:20px;
+  text-align: left;
+  margin:4px;
+}
+.money2 nav{
+  color:black;
+  font-size:20px;
+  text-align: left;
+  margin:4px;
+}
+.money1 p{
+color:green;
+text-align: left;
+
+font-size: 60px;
+
+}
+.money2 p{
+color:green;
+text-align: left;
+font-size: 60px;
+}
+.money1 p span{
+  font-size: 20px;
+}
+.money2 p span{
+  font-size: 20px;
+}
+.money1 hr{
+  margin:1rem;
+}
+.money2 hr{
+  margin:1rem;
+}
+.fa{
+  color:green;
+  margin-left: 10px;
+  margin:5px;
+}
+.text{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 25px;
+  color: green;
+  border:solid;
+  border-color: green;
+  border-radius: 20px;
+  width:200px;
+  transition-duration: 1s;
+}
+.text:hover{
+  background-color:green;
+  color:white;
+}
+.signup{
+  background-color:orange;
+  
+}
+.signup span{
+  margin-right: 5rem;
+  font-size: 2rem;
+  margin-left:12rem;
+
+}
+.signup h5{
+  font-size: 3rem;
+  text-align: center;
+  
+}
+.signup hr{
+width:100px;
+  height:4px;
+  background-color:green;
+  margin-left:600px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.text1{
+  height:50px;
+  width:300px;
+  margin-left: 12rem;
+  margin-bottom: 2rem;
+}
+.text2{
+  height:50px;
+  width:300px;
+  margin-left: 11.5rem;
+  margin-bottom: 2rem;
+}
+.cars{
+  height:50px;
+  width:300px;
+  margin-bottom: 2rem;
+}
+.check{
+  height:50px;
+  width:300px;
+  margin-bottom: 2rem;
+  margin-right: o;
+}
+.text5{
+  margin-left: 4rem;
+}
+.submit{
+  height:50px;
+  width:200px;
+  color:wheat;
+  font-size: 2rem;
+  margin:2rem;
+  margin-left: 25rem;
+  background-color: green;
+  text-align: center;
+}
+footer{
+  background-color: black;
+  
+}
+footer span{
+  padding: 0;
+  margin: 0;
+  /* padding-top: 3rem; */
+  font-size: 1.5rem;
+  color: white;
+  margin:1rem;
+  
+}
+
+.one{
+transition-duration: 1sec;
+  display: inline-block;
+}
+.one:hover{
+  transform:scale(1.1);
+}
+
+footer nav{
+  font-size: 30px;
+  padding-bottom: 20px;
+  word-spacing: 2rem;
+}
+/* .two{
+  justify-content: right;
+} */
+.two {
+  /* justify-content: right; */
+  padding-left: 25rem;
+   /* padding: 0; */
+  /* margin: 0; */
+  /* padding-top: 3rem; */
+  font-size: 1.5rem;
+  color: white;
+  margin:1rem;
+ 
+}
